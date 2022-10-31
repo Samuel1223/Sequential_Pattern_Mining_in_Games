@@ -16,8 +16,8 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore') # 加上這行只是把下面的一些加上這行只是把下面的一些warning性質的輸出都省略掉
 
-client = pymongo.MongoClient("mongodb://rwuser1:1qaz2wsx3edc@140.118.1.26:27017/?authMechanism=SCRAM-SHA-256&authSource=IGS")
-db = client["IGS"]
+client = pymongo.MongoClient("mongodb://xxxxxxxxxxxxxxxxxxxxxxxxx")
+db = client["xxxxxxxxxx"]
 
 
 collist = db.list_collection_names()
